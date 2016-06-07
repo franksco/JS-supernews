@@ -1,0 +1,8 @@
+<h1> Welcome to Super News </h1>
+
+We hope you find exactly what you're looking for Breaking News.
+<hr>
+{{#each model as |article|}}
+    {{log article}}
+    {{news-tile article=article}}
+{{/each}}
